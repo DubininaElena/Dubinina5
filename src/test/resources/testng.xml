@@ -4,6 +4,12 @@
     <test name="Create New Order [Chrome]" >
         <parameter name="selenium.browser" value="chrome" />
         <parameter name="selenium.grid" value="http://localhost:4444/wd/hub" />
+        <parameter name="name" value="Elena"/>
+        <parameter name="name1" value="Dubinina"/>
+        <parameter name="emaile" value="ocenka17061998@yandex.ua"/>
+        <parameter name="address1" value="Nedelina str."/>
+        <parameter name="postcode1" value="65049"/>
+        <parameter name="city1" value="Odessa"/>
         <classes>
             <class name="myprojects.automation.assignment5.tests.PlaceOrderTest" />
         </classes>
